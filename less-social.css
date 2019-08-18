@@ -1,21 +1,21 @@
-#pagelet_bookmark_nav, /* FACEBOOK - Left column: Bookmarks */
-a[href*="lists"], /* FACEBOOK - Left column: Lists like 'Close Friends' */
-div[id*="ticker"], /* FACEBOOK - Right column / Chat sidebar: news ticker */
-div[id*="pagelet_trending_tags_and_topics"], /* FACEBOOK - Right column: Trending tags and topics */
-div[id*="stories_pagelet_rhc"], /* FACEBOOK - Right column: Stories */
-div[id*="pagelet_ego_pane"], /* FACEBOOK - Right column: Create add prompt */
-div[id*="homepage_panel_pagelet"], /* FACEBOOK - Right column: My Pages */
-div[id*="pagelet_rhc_footer"], /* FACEBOOK - Right column: Footer */
-div[id*="stories_pagelet_below_composer"], /* FACEBOOK - Main Column: Stories */
-div[class*="feed-right-rail"],/* Right column: Footer */
-div[class="sticky ember-view"],/* LINKEDIN - Right column: Footer */
-div[class="sort-dropdown ember-view"]/* LINKEDIN - Right column: Footer */
+#pagelet_bookmark_nav, 
+a[href*="lists"], 
+div[id*="ticker"], 
+div[id*="pagelet_trending_tags_and_topics"], 
+div[id*="stories_pagelet_rhc"], 
+div[id*="pagelet_ego_pane"], 
+div[id*="homepage_panel_pagelet"], 
+div[id*="pagelet_rhc_footer"], 
+div[id*="stories_pagelet_below_composer"], 
+div[class*="feed-right-rail"],
+div[class="sticky ember-view"],
+div[class="sort-dropdown ember-view"]
  {
   display: none !important;
 }
 
-div[id*="topnews"], /* FACEBOOK - News feed - Needs visibility:hidden to prevent endless refreshing */
-div[class*="feed-shared"] /* LINKEDIN - News feed */
+div[id*="topnews"], 
+div[class*="feed-shared"] 
  {
   visibility: hidden !important;
 }
