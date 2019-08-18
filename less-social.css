@@ -1,0 +1,20 @@
+#pagelet_bookmark_nav, /* FACEBOOK - Left column: Bookmarks */
+a[href*="lists"], /* FACEBOOK - Left column: Lists like 'Close Friends' */
+div[id*="ticker"], /* FACEBOOK - Right column / Chat sidebar: news ticker */
+div[id*="pagelet_trending_tags_and_topics"], /* FACEBOOK - Right column: Trending tags and topics */
+div[id*="stories_pagelet_rhc"], /* FACEBOOK - Right column: Stories */
+div[id*="pagelet_ego_pane"], /* FACEBOOK - Right column: Create add prompt */
+div[id*="homepage_panel_pagelet"], /* FACEBOOK - Right column: My Pages */
+div[id*="pagelet_rhc_footer"], /* FACEBOOK - Right column: Footer */
+div[class*="feed-right-rail"],/* Right column: Footer */
+div[class="sticky ember-view"],/* LINKEDIN - Right column: Footer */
+div[class="sort-dropdown ember-view"]/* LINKEDIN - Right column: Footer */
+ {
+  display: none !important;
+}
+
+div[id*="topnews"], /* FACEBOOK - News feed - Needs visibility:hidden to prevent endless refreshing */
+div[class*="feed-shared"] /* LINKEDIN - News feed */
+ {
+  visibility: hidden !important;
+}
